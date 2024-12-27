@@ -19,7 +19,9 @@ export const downloadCertificate = async (imageSrc,key) => {
 	link.href = imageURL;
 	link.download = name;
 	document.body.appendChild(link);
+
 	link.click();
+
 	document.body.removeChild(link);
 
 };
