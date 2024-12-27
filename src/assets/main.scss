@@ -1,0 +1,12 @@
+@forward './base.scss';
+@use './size' as *;
+
+#app {
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10vh;
+  padding-bottom: 20px;
+	gap: $space;
+}
