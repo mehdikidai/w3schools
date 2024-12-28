@@ -101,7 +101,11 @@ const downloadPhoto = async (photo, id) => {
           {{ moment(Data.date, "MM/DD/YYYY").format("ll") }}
         </span>
       </div>
-      <button class="download" @click="downloadPhoto(Data.photo, Data.id)" :disabled="isLoadingDownload">
+      <button
+        class="download"
+        @click="downloadPhoto(Data.photo, Data.id)"
+        :disabled="isLoadingDownload"
+      >
         <x-icon
           :icon="
             isLoadingDownload
@@ -147,22 +151,22 @@ const downloadPhoto = async (photo, id) => {
 <style lang="scss" scoped>
 @use "./../assets/color" as *;
 .box {
-  background: transparent;
-  border: 1px solid rgba(121, 132, 136, 0.4);
+  //background: red;
+
   width: calc(100vw - 20px);
   max-width: 1024px;
   min-height: 330px;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  gap: 30px;
-  padding: 10px;
-  border-radius: 16px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  gap: 20px;
   .tit {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgba(121, 132, 136, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
     svg.logo_certificate {
       height: 50px;
     }
@@ -207,7 +211,8 @@ const downloadPhoto = async (photo, id) => {
     display: flex;
     align-items: center;
     justify-content: center;
-    clip-path: inset(0 round 6px);
+    clip-path: inset(0 round 12px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     img {
       width: 100%;
     }
@@ -260,7 +265,14 @@ span.copyright {
 @media screen and (max-width: 768px) {
   .box {
     grid-template-columns: 1fr;
-    padding: 30px 10px;
+    padding: 15px 0;
+    gap: 15px;
+  }
+  .box .tit {
+    padding-block: 20px;
+    h1 {
+      font-size: 1.7rem;
+    }
   }
   .box .tit button.download {
     display: none;
