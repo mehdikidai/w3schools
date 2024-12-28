@@ -115,6 +115,14 @@ const downloadPhoto = async (photo, id) => {
         />
         Download certificate
       </button>
+
+      <a
+        id="learnMoreTxt"
+        target="_blank"
+        class="learn-more-text"
+        href="https://campus.w3schools.com/collections/course-catalog/products/web-application-development-course"
+        >Learn more about this exam</a
+      >
     </div>
     <div class="photo">
       <img :src="Data.photo" alt="test" />
@@ -166,6 +174,15 @@ const downloadPhoto = async (photo, id) => {
     justify-content: center;
     border: 1px solid rgba(121, 132, 136, 0.4);
     border-radius: 12px;
+
+    .learn-more-text {
+      margin-top: 44px;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 0.875rem;
+      color: white;
+      text-decoration: none;
+    }
     svg.logo_certificate {
       height: 50px;
     }
