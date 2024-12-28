@@ -165,7 +165,6 @@ const downloadPhoto = async (photo, id) => {
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(121, 132, 136, 0.4);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 12px;
     svg.logo_certificate {
       height: 50px;
@@ -212,7 +211,6 @@ const downloadPhoto = async (photo, id) => {
     align-items: center;
     justify-content: center;
     clip-path: inset(0 round 12px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     img {
       width: 100%;
     }
