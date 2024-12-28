@@ -8,14 +8,14 @@ export default [
     id: "qeI9wWLi",
     name: "el mehdi kidai",
     certificate: "react",
-    date: "03/22/2022",
+    date: "12/26/2024",
     photo: qeI9wWLi,
   },
   {
     id: "GI1f9RTK",
     name: "el mehdi kidai",
     certificate: "vue.js",
-    date: "03/20/2022",
+    date: "12/25/2024",
     photo: GI1f9RTK,
   },
   {
