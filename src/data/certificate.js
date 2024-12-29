@@ -1,4 +1,7 @@
-import { makePath } from "@/helper";
+import qeI9wWLi from "@/assets/images/certificate/qeI9wWLi.png";
+import GI1f9RTK from "@/assets/images/certificate/GI1f9RTK.png";
+import njQyGO8y from "@/assets/images/certificate/njQyGO8y.png";
+import uUGQbjrf from "@/assets/images/certificate/uUGQbjrf.png";
 
 export default [
   {
@@ -6,27 +9,26 @@ export default [
     name: "el mehdi kidai",
     certificate: "react",
     date: "12/26/2024",
-    photo: makePath("qeI9wWLi"),
+    photo: qeI9wWLi,
   },
   {
     id: "GI1f9RTK",
     name: "el mehdi kidai",
-    certificate: "vue.js",
     date: "12/25/2024",
-    photo: makePath("GI1f9RTK"),
+    photo: GI1f9RTK,
   },
   {
     id: "njQyGO8y",
     name: "el mehdi kidai",
     certificate: "laravel",
     date: "12/27/2024",
-    photo: makePath("njQyGO8y"),
+    photo: njQyGO8y,
   },
   {
     id: "uUGQbjrf",
     name: "el mehdi kidai",
     certificate: "typescript",
     date: "12/22/2024",
-    photo: makePath("uUGQbjrf"),
+    photo: uUGQbjrf,
   },
 ];
