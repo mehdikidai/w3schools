@@ -173,7 +173,7 @@ const downloadPhoto = async (photo, id) => {
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(121, 132, 136, 0.4);
-    border-radius: 12px;
+    border-radius: 6px;
 
     .learn-more-text {
       margin-top: 44px;
@@ -227,7 +227,7 @@ const downloadPhoto = async (photo, id) => {
     display: flex;
     align-items: center;
     justify-content: center;
-    clip-path: inset(0 round 12px);
+    clip-path: inset(0 round 6px);
     img {
       width: 100%;
     }
