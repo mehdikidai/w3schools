@@ -162,7 +162,7 @@ const downloadPhoto = async (photo, id) => {
   //background: red;
 
   width: calc(100vw - 20px);
-  max-width: 1024px;
+  max-width: 1200px;
   min-height: 330px;
   display: grid;
   grid-template-columns: 2fr 3fr;
