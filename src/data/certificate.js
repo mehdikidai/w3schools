@@ -2,6 +2,7 @@ import qeI9wWLi from "@/assets/images/certificate/qeI9wWLi.png";
 import GI1f9RTK from "@/assets/images/certificate/GI1f9RTK.png";
 import njQyGO8y from "@/assets/images/certificate/njQyGO8y.png";
 import uUGQbjrf from "@/assets/images/certificate/uUGQbjrf.png";
+import YWqz4YYc from "@/assets/images/certificate/YWqz4YYc.png";
 
 export default [
   {
@@ -30,5 +31,12 @@ export default [
     certificate: "typescript",
     date: "12/22/2024",
     photo: uUGQbjrf,
+  },
+  {
+    id: "YWqz4YYc",
+    name: "Chabba saad",
+    certificate: "typescript",
+    date: "12/22/2024",
+    photo: YWqz4YYc,
   },
 ];
